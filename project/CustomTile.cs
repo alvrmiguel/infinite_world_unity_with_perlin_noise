@@ -32,6 +32,7 @@ public class CustomTile : TileBase
     public int spriteHeight;
     public int rows;
     public int cols;
+    public Sprite[] sprite;
 
     // Override necessário para desenhar o tile na tilemap
     public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
